@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learning front-end development: HTML, CSS, JavaScript, and frameworks like React/Redux." />
+		<title>Front-End Programming | Learning Path Overview</title>
+    <link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+    <header id="top">
+      <h1>Front-End Programming</h1>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="./home.html" class="active">Front-End Programming</a></li>
+            <li><a href="./web_foundations.html">Web Foundations</a></li>
+            <li><a href="./improved_styling.html">Improved Styling with CSS</a></li>
+            <li><a href="./building_interactive.html">Building Interactive Websites</a></li>
+            <li><a href="./frontenddev.html">Front-End Development</a></li>
+            <li><a href="./interview.html">Interview Prep</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class='basicinfo'>
+        <h2>Basic Information</h2>
+          <p>Languages that are commonly used in Front-End Programming are HTML, CSS, and JavaScript. Frameworks that are used in Front-End Programming range from React to Redux. You'll build skills like:</p>
+            <ul>
+              <li>Build static websites with HTML and CSS</li>
+              <li>Make your websites interactive with JavaScript</li>
+              <li>Apply basic design theory to your webpages</li>
+              <li>Use the command line</li>
+              <li>Manage versions of your code with Git</li>
+              <li>Collaborate with teammates on GitHub</li>
+              <li>Build web apps with React and Redux</li>
+              <li>Test React applications with Jest and Enzyme</li>
+              <li>Deploy React applications with Netlify</li>
+              <li>Apply SEO tactics to improve your site's popularity</li>
+              <li>Ace the engineering interview</li>
+            </ul>
+      </section>
+
+      <section class='projectideas'>
+        <h3>Project Ideas</h3>
+          <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Reddit Client</li>
+            <li>Open-Ended Project</li>
+          </ul>
+      </section>
+
+      <section class='resources'>
+        <h3>Helpful Resources:</h3>
+          <ul>
+            <li><a href="https://www.codecademy.com/resources/docs" target="_blank" rel="noopener noreferrer">Codecademy Docs</a></li>
+            <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS-Tricks</a></li>
+            <li><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React Documentation</a></li>
+            <li><a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">Redux Documentation</a></li>
+            <li><a href="https://dev.to/" target="_blank" rel="noopener noreferrer">DEV Community</a></li>
+            <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Stack Overflow</a></li>
+            <li><a href="https://www.codecademy.com/workspaces/new" target="_blank" rel="noopener noreferrer">Codecademy Workspaces</a></li>
+          </ul>
+      </section>
+
+    <section class='webdevoverview'>
+      <h2>Introduction: Overview of Web Development</h2>
+        <p>The goal of this unit, "Introduction: Overview of Web Development," is to introduce you to the field of Front-End web development. You will learn how the internet works and get an overview of programming languages used by web developers. <br><br>After this unit, you will be able to:</p>
+          <ul>
+            <li>Understand the architecture of the internet, at a high-level</li>
+            <li>Understand commonly used languages in Web Development</li>
+            <li>Understand what Front-End is</li>
+          </ul>
+    </section>
+
+    <section class='internet-webdev'>
+      <h2>The Internet and Web Development</h2>
+        <h3>Overview of the Internet</h3>
+          <p>Goal: (Subskill) Understand the internet and languages used to make websites
+            <br><br>In this lesson you will learn how the internet works behind the scenes. After finishing this lesson, you'll be able to answer questions like:</p>
+          <ul>
+            <li>How is data sent from one computer to another?</li>
+            <li>What is the relationship between a browser and a server?</li>
+            <li>How is code turned into the experience that users see in their browsers?</li>
+            <li>How has the web and web development changed from its invention to today?</li>
+          </ul>
+          <p>While people today often use the terms internet and world wide web interchangeably, they actually refer to quite different things. The internet refers to the actual network of connected computing devices. Engagement with the internet changed in 1989 when <a href="https://www.codecademy.com/resources/docs/general/historical-technical-figures/tim-berners-lee">Tim Berners-Lee</a> invented the <em>world wide web.</em> The world wide web is a collection of interlinked websites and other web sources.</p>
+    </section>
+
+    <section class='browsers-servers'>
+      <h2>Browsers and Servers</h2>
+
+        <p>The internet is a network that links computer devices worldwide. This happens through a process called the client-server model. In the model, the client refers to the user's device or program that is making a request for data. A client can be a browser or application running on a user's laptop, smartphone, or tablet. The server is the device or program in that network that waits for incoming requests and sends back data. These could be from an in-house server, a rented server at a data center, or a cloud server.
+          <br><br>
+          For example, Codecademy has servers that store lesson data and their servers are sending this lesson to your client device (laptop/computer/smartphone/tablet).</p>
+        <h3>What happens when you request a website in your browser?</h3>
+          <p>The request is sent from your device to a server across the internet. The server sends code and data as a response to the browser's request.</p>
+        <h3>What is a Server?</h3>
+          <p>A server is a specialized computer connected to a network which provides, or "serves up," resources or services.</p>
+        <h3>How do Browsers and Servers Communicate?</h3>
+          <p>The browser and server communicate with one another using the Internet Protocol known as HTTP, or <em>hypertext transfer protocol</em>, which allows for data transfer. (When you see an 's' at the end of the HTTP in your browser, that means the connection is secure).</p>
+
+    </section>
+
+        <table class="httprequests">
+          <caption>HTTP Request Methods</caption>
+          <thead>
+            <tr>
+              <th scope="col">Methods</th>
+              <th scope="col">Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">GET</td>
+              <td>Used to retrieve information from the server</td>
+            </tr>
+            <tr>
+              <td scope="row">POST</td>
+              <td>Used to send data to the server (like customer information or file upload)</td>
+            </tr>
+            <tr>
+              <td scope="row">PUT</td>
+              <td>Used to replace current data with uploaded content</td>
+            </tr>
+            <tr>
+              <td scope="row">DELETE</td>
+              <td>Removes current data</td>
+            </tr>
+          </tbody>
+        </table>
+
+    <section class='status-codes'>
+      <h2>You've seen status codes before!</h2>
+        <p>When the server sent back a response it sends back a status code that accompanies the user's requested resource.
+          <br><br>For example:
+          <br><br>This is an HTTP response code that indicates that the requested content wasn't found.
+          HTTP provides reliable structure to the interplay between the client and the server.</p>
+
+      <h3>Common Status Codes</h3>
+        <table class="statuscodes">
+          <caption>Common Status Codes</caption>
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Explanation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>200 OK</td>
+              <td>The request has succeeded</td>
+            </tr>
+            <tr>
+              <td>301 Moved Permanently</td>
+              <td>The resource has been moved and the client is being redirected</td>
+            </tr>
+            <tr>
+              <td>404 Not Found</td>
+              <td>The request resource was not found</td>
+            </tr>
+            <tr>
+              <td>500 Internal Server Error</td>
+              <td>The server encountered an unexpected error</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+
+    <section class='browsers'>
+      <h2>How do Browsers Work?</h2>
+        <ol>
+          <li>When a user types in a URL and presses enter, the server processes the request and sends the HTML file back to the client. HTML files hold the content of a website and they also contain links for any additional assets or codes that are needed to display the site properly</li>
+          <li>The browser will begin to search for elements in the HTML file and it will start to make additional HTTP requests for any other external resources used by the HTML file. This often includes:
+            <ol type="a">
+              <li>One or more CSS stylesheets, also known as cascading style sheet; CSS creates the style and layout of a webpage. The browser will request the CSS stylesheet, and when the server sends it back, the browser analyzes the CSS and starts applying the visual styles to the content of the site.</li>
+              <li>The request-response cycle also sends website assets, like images and videos, from the server to the browser. If these files are large, there might even be a noticeable delay before they are rendered by the browser.</li>
+              <li>One or more JavaScript files. JavaScript makes the webpage interactive. This programming language functions as the "behavior" of the webpage. A webpage that does not use JavaScript is known as a static webpage.</li>
+            </ol>
+            </li>
+          </ol>
+    </section>
+
+    <section class='web2'>
+      <h2>Web 2.0</h2>
+
+        <p>The earliest static websites were composed of text, images, and links, with very little interactivity beyond browsing from one page to another. These websites are called static, which means lacking in movement because they do not change based on user behavior. As internet connection speeds and web technologies progressed, more complex interactions became possible on the web.</p>
+
+        <p>A collection of advances in the early 2000s created a cluster of web applications that is often called "Web 2.0" which are often defined by:</p>
+
+        <p>Providing a dynamic user experience by offering content that responds to user input without forcing the page to reload. In the early web, a user's input would typically take the user to a new page - and they would have to wait for the new page to load. In Web 2.0, websites could just update selected regions of the page, avoiding the interruption caused by reloading.</p>
+
+        <p>Emphasizing user-generated content and social sharing. In the early web, content was generally authorized by a single source. The rise of blogging, social media, and wikis in the Web 2.0 meant that users could generate content and share it with their friends.</p>
+
+        <p>There were important technical advances that enabled each of these advances in the user interface of the internet. For example:</p>
+
+        <ul>
+          <li><em>jQuery</em> was the first JavaScript framework that could fetch data while the page is still running. <br>Preview: Docs Frameworks are software that provide reusable boilerplate code and functionality for building applications</li>
+          <li>The rise of <em>web frameworks</em> that connected to databases, like Spring, Django, and Ruby-on-Rails, enabled user-generated content to effectively be created, stored, and displayed.</li>
+        </ul>
+    </section>
+
+    <section class='currenttrends'>
+      <h2>Current Internet Trends</h2>
+        <p>Mobile internet traffic and web development practices have evolved in order to provide a good user experience regardless of device types.</p>
+        <h3>Responsive Web Design</h3>
+          <p>The role of responsive web design has changed how websites are built. Responsive web design was enabled by additions to the CSS language, like media queries and relative units. These additions allow the presentation of websites to adjust based on the size of the window in which they are displayed.</p>
+    </section>
+
+    <section class='mobileapps'>
+        <h2>Mobile Applications and Devices</h2>
+          <p>The rise of internet-connected mobile applications has changed the way we think about browsing the internet. Users accessing the internet on smartphones are likely to spend much more time with specific applications, rather than using their phone's browser.</p>
+          <p>Though most mobile applications are internet connected, they are not part of the world wide web. The web is built out of links, whereas mobile applications are designed to keep the user's attention.</p>
+    </section>
+
+    <section>
+        <h2>Review</h2>
+          <dl>
+            <dt>How is data sent from one computer to another?</dt>
+            <dd>The browser initiates a request to the server and renders website files. The server stores website files and sends them to the web browser upon request.</dd>
+            <dt>What is the relationship between a browser and a server?</dt>
+            <dd>The relationship is client-server based: the browser (client) makes requests to the server over the internet.</dd>
+            <dt>How is code turned into the experience that users see in their browsers?</dt>
+            <dd>The browser renders HTML, CSS, and JavaScript files returned by the server into the visual experience users see. Status codes (like 200, 404, 500) help indicate how that request is processed.</dd>
+            <dt>How has the web and web development changed from its invention to today?</dt>
+            <dd>We have moved on from static websites to Web 2.0 where sites are dynamic, interactive, and share the updated information for every user. In more recent years, mobile applications have been making changes in the internet world due to the lack of users using their native phone browser as a means to connect to the internet.</dd>
+          </dl>
+    </section>
+    <div class="return">
+      <button id="backToTop">↑ Top</button>
+    </div>
+    </main>
+    <footer>
+      <p>Project Start Date: August 08, 2025</p>
+      <p>Created by: Alchemy Ravenswood</p>
+    </footer>
+    <script src="js/script.js"></script>
+	</body>
+</html>
