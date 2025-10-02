@@ -71,18 +71,18 @@ th, td {
   color: brown;
 }
 
-.resources a:hover,
-.books a:hover,
-.internet-webdev a:hover
-{
-  color: orange;
-}
-
 .resources a:visited,
 .books a:visited,
 .internet-webdev a:visited
 {
   color: gray;
+}
+
+.resources a:hover,
+.books a:hover,
+.internet-webdev a:hover
+{
+  color: orange;
 }
 
 html {
