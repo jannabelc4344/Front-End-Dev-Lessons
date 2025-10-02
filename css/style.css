@@ -64,15 +64,17 @@ th, td {
   text-align: left;
 }
 
-.resources a:hover {
-  color: orange;
+.resources a,
+.books a,
+.internet-webdev a
+{
+  color: brown;
 }
 
-.books a:hover {
-  color: orange;
-}
-
-.internet-webdev a:hover {
+.resources a:hover,
+.books a:hover,
+.internet-webdev a:hover
+{
   color: orange;
 }
 
