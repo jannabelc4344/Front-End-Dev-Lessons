@@ -78,6 +78,12 @@ th, td {
   color: orange;
 }
 
+.resources a:visited,
+.books a:visited,
+.internet-webdev a:visited
+{
+  color: gray;
+
 html {
   scroll-behavior: smooth;
 }
