@@ -68,6 +68,14 @@ th, td {
   color: orange;
 }
 
+.books a:hover {
+  color: orange;
+}
+
+.internet-webdev a:hover {
+  color: orange;
+}
+
 html {
   scroll-behavior: smooth;
 }
